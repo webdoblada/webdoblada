@@ -35,8 +35,10 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: '18.12.1'
       - run: npm install fs
+      - run: npm run build --if-present
+      - run: npm test
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
