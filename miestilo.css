@@ -1,0 +1,95 @@
+body {
+    background-image: url(fondo.jpg);
+    background-position: center;
+    background-size: cover;
+
+    margin: 0;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🤮</text></svg>") 16 0,auto;
+}
+
+.isma {
+    position: absolute;
+    height: 331px;
+    width: 700px;
+    top: 55%;
+    right: 42%;
+
+    margin: 0;
+
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>😎</text></svg>") 16 0,auto;
+
+    border: 2px solid rgba(23,23,23,255);
+    border-radius: 10px;
+    background-color: rgba(23,23,23,255);
+}
+
+#gif {
+    position: absolute;
+    right: 10px;
+    top: 55%;
+}
+
+#ismacara {
+    position: absolute;
+    top: 25%;
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#ismapro {
+    margin: 0;
+
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>😎</text></svg>") 16 0,auto;
+
+    position: absolute;
+    top: 75%;
+    font-weight: bold;
+    font-size: 25px;
+    left: 30px;
+    /*animation: cosarara 8s linear infinite alternate both;*/
+
+    background: -webkit-linear-gradient(left, #7b8fdd, #86bff2, #bbdef2, #c88bc4, #d1aad7);
+    background: -o-linear-gradient(right, #7b8fdd, #86bff2, #bbdef2, #c88bc4, #d1aad7);
+    background: -moz-linear-gradient(right, #7b8fdd, #86bff2, #bbdef2, #c88bc4, #d1aad7);
+    background: linear-gradient(to right, #7b8fdd, #86bff2, #bbdef2, #c88bc4, #d1aad7); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#texto {
+    position: absolute;
+
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>😎</text></svg>") 16 0,auto;
+
+    color: white;
+    font-size: 20px;
+    left: 225px;
+    margin: 10px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@keyframes cosarara {
+    0%{
+        color: #7b8fdd;
+    }
+
+    25%{
+        color: #86bff2;
+    }
+
+    50%{
+        color: #bbdef2;
+    }
+
+    75%{
+        color: #c88bc4;
+    }
+
+    100%{
+        color: #d1aad7;
+    }
+}
